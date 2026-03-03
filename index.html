@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WishLuck | Learn & Play Interactive Sound Book</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .bg-warm-white { background-color: #FAFAFA; }
+        .bg-wish-green { background-color: #2E7D32; }
+        .text-wish-green { color: #2E7D32; }
+        .bg-wish-yellow { background-color: #FFFDE7; }
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 25px;
+            right: 25px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s;
+        }
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-warm-white text-gray-900">
+
+    <a href="https://wa.me/YOUR_PHONE_NUMBER_HERE?text=Hi%20WishLuck%2C%20I%20have%20a%20question%20about%20the%20sound%20book." class="whatsapp-float" target="_blank">
+        <svg fill="currentColor" width="35" height="35" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.48 2.242 2.242 3.48 5.227 3.48 8.404 0 6.556-5.332 11.888-11.888 11.888-2.01 0-3.987-.509-5.731-1.472l-6.253 1.697zm6.338-3.967l.358.212c1.43.848 3.085 1.296 4.787 1.296 4.903 0 8.891-3.988 8.891-8.891 0-2.375-.925-4.607-2.604-6.286-1.679-1.679-3.911-2.604-6.287-2.604-4.903 0-8.891 3.988-8.891 8.891 0 1.92.6 3.791 1.734 5.367l.233.323-1.025 3.743 3.844-1.042zm11.376-5.061c-.247-.124-1.465-.722-1.692-.804-.227-.083-.393-.124-.559.124-.166.248-.641.804-.785.969-.144.165-.289.185-.536.062-.247-.124-1.044-.385-1.988-1.227-.735-.656-1.231-1.465-1.375-1.712-.144-.247-.015-.381.109-.504.111-.11.247-.289.371-.434.124-.144.165-.247.247-.412.082-.165.042-.309-.021-.433-.062-.124-.559-1.346-.765-1.841-.2-.482-.403-.418-.559-.426-.143-.008-.309-.01-.475-.01-.165 0-.433.062-.659.309-.227.247-.866.845-.866 2.062 0 1.216.887 2.391 1.011 2.556.124.165 1.745 2.664 4.226 3.733.589.255 1.05.408 1.408.522.593.188 1.132.161 1.558.097.475-.072 1.465-.598 1.672-1.175.206-.576.206-1.071.144-1.175-.062-.103-.227-.165-.475-.289z"/></svg>
+    </a>
+
+    <nav class="sticky top-0 z-50 bg-white border-b shadow-sm hidden md:block">
+        <div class="max-w-7xl mx-auto px-6 py-3 flex justify-center space-x-8 text-sm font-bold uppercase tracking-wider text-gray-600">
+            <a href="#benefits" class="hover:text-wish-green">Benefits</a>
+            <a href="#how-it-works" class="hover:text-wish-green">How It Works</a>
+            <a href="#reviews" class="hover:text-wish-green">Reviews</a>
+            <a href="#faq" class="hover:text-wish-green">FAQs</a>
+        </div>
+    </nav>
+
+    <section class="py-12 lg:py-20 px-6 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="order-2 lg:order-1">
+                <img src="https://via.placeholder.com/600x600?text=Happy+Child+With+WishLuck+Book" alt="Happy child using WishLuck Book" class="rounded-2xl shadow-xl w-full">
+            </div>
+            <div class="order-1 lg:order-2 space-y-6 text-center lg:text-left">
+                <p class="text-wish-green font-bold tracking-wide text-sm uppercase">Trusted by Indian Parents · Amazon Choice Product · Screen-Free Learning</p>
+                <h1 class="text-4xl lg:text-6xl font-bold leading-tight text-gray-900 italic">Help Your Child Speak Clearly — <span class="text-gray-500">Without Screens. Without Pressure.</span></h1>
+                <p class="text-lg text-gray-600">"India's most loved interactive sound learning book — designed to develop early speech, vocabulary and listening skills in children aged 2–6 years, through hands-on play every single day."</p>
+                <div class="flex flex-wrap justify-center lg:justify-start items-center gap-4 py-2 border-y border-gray-200 font-medium">
+                    <span>⭐ 4.6 Rating</span><span class="text-gray-300">|</span><span>25,000+ Indian Parents</span><span class="text-gray-300">|</span><span class="italic">Amazon Choice</span>
+                </div>
+                <div class="space-y-4 pt-4">
+                    <button class="bg-wish-green text-white text-xl font-bold py-5 px-10 rounded-lg w-full lg:w-auto hover:bg-green-800 transition shadow-lg">Start Your Child's Speech Journey →</button>
+                    <div class="flex flex-wrap justify-center lg:justify-start gap-4 text-xs font-bold text-gray-400 uppercase tracking-widest">
+                        <span>🚚 Free Shipping</span><span>💵 Cash on Delivery</span><span>🔄 7-Day Replacement</span>
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 gap-4 pt-8 text-center border-t border-gray-100">
+                    <div><p class="text-2xl">⭐</p><p class="font-bold text-sm uppercase">Amazon Choice</p></div>
+                    <div><p class="text-2xl">👨‍👩‍👧</p><p class="font-bold text-sm uppercase">25,000+ Families</p></div>
+                    <div><p class="text-2xl">🗣</p><p class="font-bold text-sm uppercase">Speech-First</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-20 px-6 border-t">
+        <div class="max-w-4xl mx-auto text-center space-y-8">
+            <h2 class="text-3xl lg:text-5xl font-bold">Is Your Child Spending Too Much Time on Screens?</h2>
+            <div class="bg-gray-50 p-8 rounded-3xl">
+                <p class="text-xl lg:text-2xl text-gray-700 leading-relaxed italic">"Between ages 2 and 5, your child's brain is building the neural pathways for speech, language and communication — faster than at any other point in their life."</p>
+                <p class="text-2xl lg:text-4xl font-black text-red-600 uppercase tracking-tighter mt-4">This is the window. And it closes.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 pt-8">
+                <div class="p-6 border rounded-2xl shadow-sm text-left"><span class="text-3xl">📱</span><h3 class="font-bold text-xl mt-4 mb-2">Mobile Addiction</h3><p class="text-gray-600 text-sm">Screens keep children quiet — but they are not building language skills.</p></div>
+                <div class="p-6 border rounded-2xl shadow-sm text-left"><span class="text-3xl">😶</span><h3 class="font-bold text-xl mt-4 mb-2">Late Speech</h3><p class="text-gray-600 text-sm">Your child points instead of speaks. Fewer words now means a harder catch-up later.</p></div>
+                <div class="p-6 border rounded-2xl shadow-sm text-left"><span class="text-3xl">😴</span><h3 class="font-bold text-xl mt-4 mb-2">Passive Learning</h3><p class="text-gray-600 text-sm">Watching a screen teaches less than doing. Active interaction is how children learn.</p></div>
+            </div>
+            <p class="text-2xl font-bold pt-8 text-wish-green">Parents wanted a smarter alternative. So we built one.</p>
+        </div>
+    </section>
+
+    <section class="py-16 px-6 max-w-7xl mx-auto border-t">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <img src="https://via.placeholder.com/600x500?text=WishLuck+Product+Shot" alt="WishLuck Sound Book" class="rounded-2xl shadow-lg">
+            <div class="space-y-6">
+                <h2 class="text-3xl lg:text-4xl font-bold">Meet the WishLuck Learn & Play Interactive Sound Book.</h2>
+                <ul class="space-y-4 text-lg font-medium">
+                    <li>👆 Tap & Learn Technology — hear words instantly</li>
+                    <li>🔊 100+ Words & Sounds across 10 categories</li>
+                    <li>🌱 Montessori-inspired independent learning</li>
+                    <li>📵 No screen, no internet, no app required</li>
+                </ul>
+                <button class="bg-wish-green text-white font-bold py-4 px-8 rounded-lg w-full lg:w-auto hover:bg-green-800 shadow-md">Order Now — Free Shipping + COD Available →</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="bg-gray-100 py-16 px-6">
+        <div class="max-w-6xl mx-auto text-center space-y-12">
+            <h2 class="text-3xl font-bold italic underline decoration-wish-green">Simple to Use. Powerful to Learn From.</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm"><div class="w-12 h-12 bg-wish-green text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-4">1</div><h3 class="font-bold text-xl mb-2">Insert Batteries</h3><p class="text-gray-600 italic">Already included — nothing extra to buy</p></div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm"><div class="w-12 h-12 bg-wish-green text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-4">2</div><h3 class="font-bold text-xl mb-2">Choose Mode</h3><p class="text-gray-600">"Read, Music, Game, or Volume"</p></div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm"><div class="w-12 h-12 bg-wish-green text-white rounded-full flex items-center justify-center font-bold text-xl mx-auto mb-4">3</div><h3 class="font-bold text-xl mb-2">Tap Any Picture</h3><p class="text-gray-600">"Word plays instantly. Child hears, repeats."</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="py-20 px-6 max-w-7xl mx-auto">
+        <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12">What Changes When Your Child Uses This Every Day</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="p-8 border-4 border-wish-green rounded-3xl shadow-xl space-y-4">
+                <span class="text-4xl">🗣</span><h3 class="font-bold text-2xl">Speech Gets Clearer</h3><p class="text-gray-600">Clear pronunciation helps children hear every word correctly and practise immediately. Improvement in 2-3 weeks.</p>
+            </div>
+            <div class="p-8 border rounded-3xl space-y-4">
+                <span class="text-4xl">🧠</span><h3 class="font-bold text-2xl">Cognitive Growth</h3><p class="text-gray-600">Trains attention, memory association and focus in small doses that match toddler capacity.</p>
+            </div>
+            <div class="p-8 border rounded-3xl space-y-4">
+                <span class="text-4xl">🎯</span><h3 class="font-bold text-2xl">Vocabulary Growth</h3><p class="text-gray-600">100+ words build a foundation without the pressure of traditional drilling.</p>
+            </div>
+        </div>
+        <div class="mt-12 p-6 bg-blue-50 text-blue-800 rounded-2xl text-center font-bold border-l-8 border-blue-500 max-w-3xl mx-auto">
+            🩺 Recommended for speech delay support and early childhood therapy — by paediatric therapists across India.
+        </div>
+    </section>
+
+    <section id="reviews" class="bg-wish-yellow py-20 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl lg:text-4xl font-bold mb-4 italic">Loved by 25,000+ Indian Parents</h2>
+            <p class="text-gray-600 mb-12">Real results from real families — verified on Amazon.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-2xl shadow-sm text-left border border-yellow-200">
+                    <div class="text-yellow-400 mb-2 font-bold text-xl">⭐⭐⭐⭐⭐</div>
+                    <p class="italic text-gray-700 mb-4">"Within two weeks, my daughter started naming animals on her own. She carries this book everywhere now."</p>
+                    <p class="font-bold text-sm">Priya R. · Daughter, age 3 · <span class="text-green-600 font-normal">✔ Verified Amazon Buyer</span></p>
+                </div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm text-left border border-yellow-200">
+                    <div class="text-yellow-400 mb-2 font-bold text-xl">⭐⭐⭐⭐⭐</div>
+                    <p class="italic text-gray-700 mb-4">"My son has speech delay. His therapist recommended interactive tools — this book made a real difference in 3 weeks."</p>
+                    <p class="font-bold text-sm">Amit K. · Son, age 4 · <span class="text-green-600 font-normal">✔ Verified Amazon Buyer</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white py-20 px-6 border-t">
+        <div class="max-w-4xl mx-auto text-center mb-12"><h2 class="text-3xl font-bold italic">Why Parents Choose WishLuck Over Screens</h2></div>
+        <div class="overflow-hidden rounded-3xl border shadow-2xl max-w-4xl mx-auto">
+            <table class="w-full text-left bg-white">
+                <thead class="bg-gray-50 border-b text-xs uppercase tracking-widest"><th class="p-6">Feature</th><th class="p-6 text-wish-green bg-green-50 font-black">WishLuck</th><th class="p-6">Mobile Apps</th><th class="p-6">Regular Books</th></thead>
+                <tbody class="divide-y text-sm font-medium">
+                    <tr><td class="p-6">Screen-Free</td><td class="p-6 bg-green-50">✅ Yes</td><td class="p-6">❌ No</td><td class="p-6">✅ Yes</td></tr>
+                    <tr><td class="p-6">Interactive Audio</td><td class="p-6 bg-green-50">✅ Yes</td><td class="p-6">✅ Yes</td><td class="p-6">❌ No</td></tr>
+                    <tr><td class="p-6 italic font-bold">Speech Focused</td><td class="p-6 bg-green-50 font-bold">✅ Yes</td><td class="p-6">❌ No</td><td class="p-6">❌ No</td></tr>
+                    <tr><td class="p-6">No Internet Needed</td><td class="p-6 bg-green-50">✅ 100%</td><td class="p-6">❌ No</td><td class="p-6">✅ Yes</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="py-20 px-6 max-w-6xl mx-auto border-t">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div class="space-y-6">
+                <h2 class="text-3xl lg:text-5xl font-black text-gray-900 italic uppercase">This Is Not a Toy Purchase.<br><span class="text-wish-green">It's an Investment.</span></h2>
+                <div class="bg-green-50 p-8 rounded-3xl border-l-8 border-wish-green shadow-sm">
+                    <p class="text-2xl font-black mb-2 italic">"₹1,299 ÷ 30 days = ₹43 per day."</p>
+                    <p class="text-gray-600 text-lg">Less than a cup of chai. For daily, measurable progress in your child's development.</p>
+                </div>
+            </div>
+            <div class="bg-white border-4 border-wish-green p-10 rounded-3xl shadow-2xl relative">
+                <span class="absolute -top-4 -right-4 bg-red-600 text-white px-6 py-2 rounded-full font-bold uppercase text-sm shadow-lg">35% OFF TODAY</span>
+                <h3 class="text-2xl font-bold mb-6 italic underline uppercase">Today's Order Includes:</h3>
+                <ul class="space-y-4 font-medium text-lg">
+                    <li>✅ WishLuck Interactive Sound Book</li>
+                    <li>✅ Batteries Included — ready to use</li>
+                    <li>✅ Free Shipping across India</li>
+                    <li>✅ 7-Day Replacement Guarantee</li>
+                </ul>
+                <div class="pt-8 border-t mt-8">
+                    <p class="text-5xl font-black text-gray-900 leading-none">₹1,299</p>
+                    <p class="text-sm font-bold text-gray-400 mt-2">MRP <del>₹1,999</del> · Free Shipping · COD Available</p>
+                </div>
+                <button class="w-full bg-wish-green text-white text-xl font-bold py-6 rounded-2xl mt-8 hover:scale-105 transition shadow-xl uppercase">ORDER NOW — START THE JOURNEY →</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="bg-gray-100 py-20 px-6">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12 italic">Questions Parents Ask Before Ordering</h2>
+            <div class="space-y-4">
+                <details class="group bg-white p-6 rounded-2xl shadow-sm border border-transparent open:border-wish-green transition cursor-pointer">
+                    <summary class="font-bold text-lg list-none flex justify-between items-center italic">Does this help with speech delay? <span class="text-2xl group-open:rotate-45 transition">+</span></summary>
+                    <p class="mt-4 text-gray-600 leading-relaxed">Yes. It uses the hear-see-repeat mechanism used in speech therapy to build word recognition and pronunciation naturally. Recommended for support across India.</p>
+                </details>
+                <details class="group bg-white p-6 rounded-2xl shadow-sm border border-transparent open:border-wish-green transition cursor-pointer">
+                    <summary class="font-bold text-lg list-none flex justify-between items-center italic">What is the language support? <span class="text-2xl group-open:rotate-45 transition">+</span></summary>
+                    <p class="mt-4 text-gray-600">English language learning with clear standard pronunciation — designed for Indian children learning vocabulary in early years.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-wish-green text-white py-24 px-6 text-center">
+        <div class="max-w-4xl mx-auto space-y-8">
+            <h2 class="text-4xl lg:text-6xl font-black leading-tight italic uppercase">Give Your Child a Smarter Start — Without Screens.</h2>
+            <p class="text-xl font-medium opacity-90 italic">"Your child's best learning years are happening right now. Don't let them pass without the right tools."</p>
+            <div class="space-y-6">
+                <p class="text-4xl font-black leading-none">₹1,299 (Save ₹700)</p>
+                <button class="bg-white text-wish-green text-xl font-bold py-6 px-12 rounded-2xl hover:scale-105 transition shadow-2xl uppercase">ORDER NOW — START THE JOURNEY →</button>
+                <div class="flex flex-wrap justify-center gap-8 text-xs font-bold opacity-80 uppercase tracking-widest pt-4">
+                    <span>🚚 Free Delivery</span><span>💵 Cash on Delivery</span><span>🔄 7-Day Guarantee</span><span>⭐ Amazon Choice</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
